@@ -575,6 +575,10 @@ The official Anthropic memory server. Builds a knowledge graph of entities and r
 **Install:**
 ```bash
 npx -y @modelcontextprotocol/server-memory
+
+**deja-vu (Cross-Agent Session History MCP)**
+- **What it does:** Indexes local session transcripts from Claude Code, Codex, Cursor, and 41 other coding agents so Claude can recall past fixes and pre-compaction context with zero LLM calls.
+- **Install:** `npx -y @vshulcz/deja-vu mcp` ([GitHub](https://github.com/vshulcz/deja-vu))
 ```
 
 ---
